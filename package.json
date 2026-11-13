@@ -1,0 +1,20 @@
+{
+  "name": "proxywire-red",
+  "version": "1.0.0",
+  "description": "Proxy Wire Red - Painel de Licenças",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.24.6",
+    "uuid": "^11.0.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
